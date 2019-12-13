@@ -1,0 +1,1 @@
+Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=_default;function _default(a,b){if(a&&b){var c=Array.isArray(b)?b:b.split(","),d=a.name||"",e=a.type||"",f=e.replace(/\/.*$/,"");return c.some(function(a){var b=a.trim();if("."===b.charAt(0))return d.toLowerCase().endsWith(b.toLowerCase());return b.endsWith("/*")?f===b.replace(/\/.*$/,""):e===b})}return!0}
